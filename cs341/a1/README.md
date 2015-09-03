@@ -4,5 +4,6 @@ The input to your program will be from stdin, in the following order: S, n, foll
 
 The output of your program, OP, should be sent to stdout.
 
-a) Implement an algorithm that computes OP in O(n log n)
-b) Assuming that the array is sorted (in increasing order), implement an algorithm that computes OP in O(n).
+	a) Implement an algorithm that computes OP in O(n log n)
+
+	b) Assuming that the array is sorted (in increasing order), implement an algorithm that computes OP in O(n).
