@@ -12,8 +12,5 @@ Basic commands:
 	Movement: (no)rth, (so)uth, (ea)st, (we)st, ne, nw, se, sw  
 	Use potion: u (direction)  
 	Attack: a (direction)
-	Restart: r  
+	Restart: r    
 	Quit: q  
-
-
-
