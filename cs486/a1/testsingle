@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if g++ a1q3.cc;
+then
+	number=""
+	if [ "$#" -eq 1 ]; then
+		number="$1"
+	else
+		echo How many nodes?
+		read number
+	fi
+#	FILES=randTSP/$number/*
+	FILES=randTSP/$number/instance_1.txt
+	for f in $FILES
+	do
+		echo "Processing $f file..."
+		time ./a.out < $f
+	done
+#	rm a.out
+else
+	echo "Failed compile"
+fi
